@@ -5,6 +5,7 @@ export default function Cards() {
     return (
         <div className="cardsContainer">
             <Card/>       
+            <Card/>       
         </div>
     )
 };

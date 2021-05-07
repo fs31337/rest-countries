@@ -1,0 +1,33 @@
+.searchIcon{
+    height: 1.1rem;
+    padding-right: 0.5rem;
+    opacity: 0.2;
+    margin-left: 1.5rem;
+  }
+
+  .contenedorSB{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top: 3%;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    -webkit-box-shadow: $ShadowSearchBox;
+            box-shadow: $ShadowSearchBox;
+  }
+
+  .searchInput{
+    margin-left: 0.5rem;
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .searchInput::placeholder{
+    color: #cecece;
+  }
+
+  

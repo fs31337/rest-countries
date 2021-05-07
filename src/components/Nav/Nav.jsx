@@ -10,10 +10,7 @@ export default function Nav() {
             <div className="contenedorDM">
                 <Moon className="iconoDM"/>
                 <DarkMode />
-            </div>
-           
+            </div>       
         </div>
-
-
     )
 };
