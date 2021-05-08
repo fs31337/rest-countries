@@ -1,22 +1,25 @@
 import React from 'react';
 
-export default function Card() {
+export default function Card({name,bandera,region,population,capital}) {
     return (
         <div className="cardContainer">
-            <img src="https://restcountries.eu/data/arg.svg" alt="" className="cardImg" />
+            {console.log("CARD NAMEEEEEEE",name)}
+            <div className="cardImg">
+                <img src={bandera} alt="" className="cardImg"/>
+            </div>
             <div className="cardDataContainer">
                 <div className="cardTitulo">
-                    <span>Germany</span>
+                    <span>{name}</span>
                 </div>
                 <div className="cardData">
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Population:</span><span className="cardInfo">81,770,900</span>
+                        <span className="cardTituloInfo">Population:</span><span className="cardInfo">{population}</span>
                     </div>
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Region:</span><span className="cardInfo">Europe</span>
+                        <span className="cardTituloInfo">Region:</span><span className="cardInfo">{region}</span>
                     </div>
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Capital:</span><span className="cardInfo">Berlin</span>
+                        <span className="cardTituloInfo">Capital:</span><span className="cardInfo">{capital}</span>
                     </div>
                 </div>
             </div>

@@ -2,12 +2,13 @@
     background-color: white;
     display: flex;
     width: 264px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 33px;
-    border-bottom-right-radius: .3rem;
-    border-bottom-left-radius: .3rem;
+    // margin-top: 20px;
+    border-radius: .3rem;    
     -webkit-box-shadow: $ShadowSearchBox;
             box-shadow: $ShadowSearchBox;
   }
@@ -18,14 +19,12 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 176px;
-  }
-  
+  } 
   .cardImg{
     width: 264px;
     height: 161px;
     border-top-left-radius: .3rem;
-    border-top-right-radius: .3rem
-    ;
+    border-top-right-radius: .3rem;
   } 
   
   .cardTitulo{
@@ -54,6 +53,6 @@
 
   .cardDataContainer{
     margin: 30px 0px 0px 30px;
-    height: 175px;
+    height: 143px;
   }
  
