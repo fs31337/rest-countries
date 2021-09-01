@@ -6,48 +6,51 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 33px;
-    // margin-top: 20px;
-    border-radius: .3rem;    
+    margin-bottom: 40px;
+    border-radius: .3rem;
     -webkit-box-shadow: $ShadowSearchBox;
             box-shadow: $ShadowSearchBox;
   }
-  
+
   .cardData{
     display: flex;
     margin-top: 26px;
     flex-direction: column;
     justify-content: flex-start;
     height: 176px;
-  } 
+    font-weight: 300;
+  }
   .cardImg{
     width: 264px;
+    min-width: 264px;
     height: 161px;
     border-top-left-radius: .3rem;
     border-top-right-radius: .3rem;
-  } 
-  
+    -webkit-box-shadow: $ShadowSearchBox;
+            box-shadow: $ShadowSearchBox;
+  }
+
   .cardTitulo{
-    border: none;    
+    border: none;
     font-size: 18px;
     font-weight: 800;
   }
-  
+
   .cardTituloInfo{
     border: none;
     font-size: 14px;
     font-weight: 600;
   }
-  
+
   .cardInfo{
     margin-left: 0.5rem;
     border: none;
     font-size: 14px;
     font-weight: 600;
   }
-  
+
   .cardRenglon{
-    display: flex;  
+    display: flex;
     margin-bottom: 13px;
   }
 
@@ -55,4 +58,3 @@
     margin: 30px 0px 0px 30px;
     height: 143px;
   }
- 

@@ -13,13 +13,13 @@ export default function Card({name,bandera,region,population,capital}) {
                 </div>
                 <div className="cardData">
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Population:</span><span className="cardInfo">{population}</span>
+                        <span className="cardTituloInfo"><strong>Population:</strong></span><span className="cardInfo">{population}</span>
                     </div>
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Region:</span><span className="cardInfo">{region}</span>
+                        <span className="cardTituloInfo"><strong>Region:</strong></span><span className="cardInfo">{region}</span>
                     </div>
                     <div className="cardRenglon">
-                        <span className="cardTituloInfo">Capital:</span><span className="cardInfo">{capital}</span>
+                        <span className="cardTituloInfo"><strong>Capital:</strong></span><span className="cardInfo">{capital}</span>
                     </div>
                 </div>
             </div>

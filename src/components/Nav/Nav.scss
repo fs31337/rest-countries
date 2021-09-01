@@ -1,14 +1,14 @@
 .nav {
     background-color: white;
-    -webkit-box-shadow: 0px 8px 10px -15px #858585;
-            box-shadow: 0px 8px 10px -15px #858585;
-    height: 100px;
+    -webkit-box-shadow: $ShadowSearchBox;
+            box-shadow: $ShadowSearchBox;
+    height: 80px;
     width: 100%;
   }
 
   .tituloPrincipal {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     padding-left: 5%;
   }
@@ -23,8 +23,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    // padding: 0 20px;
   }
 
   .iconoDM{
